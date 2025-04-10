@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use OhMyBrew\BasicShopifyAPI;
 
 Route::get('/', function () {
-    return 'Welcome to your Shopify App!';
+    return 'Welcome to your Shopify App! Code Tested';
 });
 
 Route::get('/auth', function (Request $request) {
